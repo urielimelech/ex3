@@ -48,7 +48,7 @@ li{
 nav a{
     text-decoration: none;
     color: #ffffed;
-    font-size: 18px;
+    font-size: 20px;
 }
 /*layout1*/
 #layout1 #logo{
@@ -87,18 +87,19 @@ nav a{
 #layout1 footer{
     height: 121px;
 }
+#layout1 article{
+    background-color: #000000;
+    opacity: 0.6;
+    position: relative;
+}
 #box1{
     width: 126px;
     height: 96px;
-    background-color: #5f2624;
-    position: relative;
     margin: 88px 342px;
 }
 #box2{
     width: 692px;
     height: 176px;
-    position: relative;
-    background-color: #666666;
     margin-top: 492px;
     margin-left: 220px;
 }
@@ -144,47 +145,30 @@ nav a{
     height: 50px;
     position: absolute;
     position: fixed;
-    top: 900px;
+    bottom: 0px;
+}
+#layout2 article{
+    width: 212px;
+    background-color: #000000;
+    opacity: 0.6;
+    float: right;
+    margin-right: 32px;
+    position: relative;
 }
 #box3{
-    width: 212px;
-    background-color: #5f2624;
     height: 223px;
-    float: right;
-    margin-right: 32px;
-    position: relative;
 }
 #box4{
-    width: 212px;
-    background-color: #5f2624;
     height: 560px;
-    float: right;
-    margin-right: 32px;
-    position: relative;
 }
 #box5{
-    width: 212px;
-    background-color: #5f2624;
     height: 306px;
-    float: right;
-    margin-right: 32px;
     margin-top: 19px;
-    position: relative;
 }
 #box6{
-    width: 212px;
-    background-color: #5f2624;
     height: 366px;
-    float: right;
-    margin-right: 32px;
-    position: relative;
 }
 #box7{
-    width: 212px;
-    background-color: #5f2624;
     height: 500px;
-    float: right;
-    margin-right: 32px;
     margin-top: 19px;
-    position: relative;
 }

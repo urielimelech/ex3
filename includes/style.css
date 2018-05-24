@@ -177,24 +177,17 @@ nav a{
 #layout3 #wrapper{
     background-color: #9d261d;
 }
-#layout3 header{
-    width: 0px;
-    height: 0px;
-}
-
 #layout3 #logo{
     float: left;
     margin-right: 0px; /*fix margin of the logo from the right*/
     margin-bottom: 0px; /*fix margin of the logo from the bottom*/
 }
-#layout3 section{
+#layout3 header{
     width: 500px;
     height: 500px;
     display: flex;
     flex-wrap: wrap;
     float: left;
-}
-#layout3 section:nth-child(1){
     background-color: #ffffff;
 }
 #layout3 nav{
@@ -239,6 +232,6 @@ nav a{
 @media (max-width: 999px){
     #layout3 #wrapper{
         width: 500px;
-        height: 2000px;
+        min-height: 500px;
     }
 }
